@@ -16,3 +16,9 @@ use App\Http\Controllers\HomeController;
 Route::get('/',  [HomeController::class, 'utama']);
 Route::get('/biodata', [HomeController::class, 'bio']);
 Route::post('/submit', [HomeController::class, 'submit']);
+Route::get('/table', function(){
+    return view('halaman.table');
+});
+Route::get('/data-table', function(){
+    return view('halaman.data-table');
+});

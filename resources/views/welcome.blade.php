@@ -1,18 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layout.master')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
 
-<body>
-
-    <h1>Sanber Book</h1>
+@section('judul')
+    Sanber Book
+@endsection
+    @section('content')
     <h2>Social media Developer Santai Berkualitas</h2>
     <h4>Balejar Berbagi agar hidup ini semakin santai berkualitas</h4>
-
+    <br>
     <h2>Benefit join di SanbarBook</h2>
 
     <ul>
@@ -28,6 +23,6 @@
         <li>Mendaftar di <a href="/biodata">Form sing Up</a></li>
         <li>Selesai!!</li>
     </ol>
-</body>
 
-</html>
+    @endsection
+    
